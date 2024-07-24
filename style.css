@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    color: white;
+}
+
+body{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+}
+.imagem{
+    width: 50%;
+    background-color: black;
+}
+
+.conteiner{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.areaTitulo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    margin-top: 20%;
+    text-align: start;
+    position: relative;
+}
+
+.areaBotao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30%;
+}
+
+.botao{
+    background-color:rgb(17, 0, 255);
+    width: 150px;
+    border: none;
+    border-radius:0 15px 15px 0;
+}
+
