@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Bom ter você de volta!</h1>
@@ -17,12 +17,17 @@
 
         <div class="input" id="inputPart">
             <p>Quando será a sua participação?</p>
-            <input type="text">
+            <select name="participação">
+                <option value="momLo">Momento Louvor</option>
+                <option value="adoInf">Adoração Infantil</option>
+                <option value="loEsp">Louvor especial</option>
+                <option value="loCon">Louvor congregacional</option>
+            </select>
         </div>
 
         <div class="input" id="inputArquivo">
             <p>Envie seu arquivo</p>
-            <input type="file">
+            <input type="file" placeholder="opa">
         </div>
         <button>Avançar</button>
     </div>
