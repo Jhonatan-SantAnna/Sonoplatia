@@ -1,8 +1,8 @@
 :root {
-    --colorBackground: #1A3E5F;
-    --colorButton: #E9EEF6;
+    --colorBackground: #E9EEF6;
+    --colorButton: #1A3E5F;
     --colorIcon: #1A3E5F;
-    --colorFont: #FFFFFF;
+    --colorFont: black;
 }
 
 * {
@@ -27,7 +27,7 @@ body {
 
 .ladoEsquerdo { 
     grid-column: 1/3;
-    background-color: black;
+    background-color: var(--colorButton);
     height: 97.9vh;
     margin: 10px 0px 0px 10px;
     border-radius: 25px 0px 0px 25px;
@@ -54,6 +54,18 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 60%;
+    
+}
+.title > hr{
+    width: 100%;
+}
+
 .areaButton{
     grid-row: 2/4;
     display: flex;
@@ -84,4 +96,27 @@ body {
 .textButton{
     font-style: Light;
     font-size: 20px;
+}
+/*Aqui acaba o css do Index*/
+
+.ladoDireito2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.areaInput{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    gap: 20px;
+    width: 60%;
+}
+.input{
+    width: 100%;
+    background-color: aqua;
 }
