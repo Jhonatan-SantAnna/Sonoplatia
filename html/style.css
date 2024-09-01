@@ -147,3 +147,26 @@ body {
     height: 30px;
     padding-left: 15px;
 }
+
+/*Aqui começa a pagina do loginSonoplasta*/
+
+.ladoDireito3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.areaInputSono{
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+.areaInputSono > button{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--colorBackground);
+}
