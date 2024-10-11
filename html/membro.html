@@ -6,45 +6,66 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+        </style>
 </head>
 <body>
-    <div class="index">
-        <div class="ladoEsquerdo">
-           
+    <div class="conteiner">
+        <div class="lado_esquerdo">
         </div> 
-    
-       <div class="pack">
-        <div class="ladoDireito2">
-            <h1 class="title2">Bom ter você de volta!</h1>
-        
-            
-            <div class="areaInput">
-                <div class="input" id="inputNome">
-                    <p>Nome</p>
-                    <input type="text" placeholder="Digite seu nome">
-                </div>
-        
-                <div class="input" id="inputPart">
-                    <p>Quando será a sua participação?</p>
-                    <select name="participação">
-                        <option value="momLo">Momento Louvor</option>
-                        <option value="adoInf">Adoração Infantil</option>
-                        <option value="loEsp">Louvor especial</option>
-                        <option value="loCon">Louvor congregacional</option>
-                    </select>
-                </div>
-        
-                <!--<div class="input" id="inputArquivo">
-                    <p>Envie seu arquivo</p>
-                    <input type="file" placeholder="opa">
-                </div>-->
 
-                <button class="btAvancar">Avançar</button>
+        <div class="lado_direito" id="D_membro">
+            <div class="area_inputs">
+                <h1 class="titulo1">BOM TER VOCÊ</h1> 
+                <h1 class="titulo2">DE VOLTA!</h1>
                 
-                <a href="index.html">Voltar</a>
+                    
+                <div class="areaInput">
+                        
+                    <div class="input" id="inputNome">
+                        <p>Informe seu nome</p>
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>
+                
+                    <div class="input" id="inputPart">
+                        <p>Quando será a sua participação?</p>
+                        <select name="participação">
+                            <option value="momLo">Momento Louvor</option>
+                            <option value="adoInf">Adoração Infantil</option>
+                            <option value="loEsp">Louvor especial</option>
+                            <option value="loCon">Louvor congregacional</option>
+                        </select>
+                    </div>
+
+                    <div class="input" id="inputPart">
+                        <p>Arquivo ou link</p>
+                        <select name="participação">
+                            <option value="arquivo">Arquivo</option>
+                            <option value="link">Link</option>
+                        </select>
+                    </div>
+
+                    <input type="file" id="upload">
+                    <label for="upload"> <img src="midia/cloud_upload-B.png" alt=""> Escolher arquivo</label>
+                    
+
+                    <div class="input" id="link">
+                        <p>Envie seu link</p>
+                        <input type="url" placeholder="Cole seu link aqui">
+                    </div>
+
+                    <div class="input" id="obs">
+                        <p>Observação</p>
+                        <input type="text">
+                    </div>
+
+                    <button class="btAvancar">Avançar</button>
+                        
+                    <a href="index.html">Voltar</a>
+                </div>
             </div>
-       </div>
-        </div>    
-    </div>
+        </div>
+    </div>   
 </body>
 </html>
