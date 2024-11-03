@@ -71,12 +71,15 @@
     justify-content: center;
     align-items: center;
 }
-.areainputs{
-    width:300px;
+.area_inputs{
+    width:70%;
+    max-width: 400px;
     height:auto;
-    display: grid;
-    gap: 50px;
 }
+.Inputs{
+    display: grid;
+    gap: 20px;
+}    
 .titulo1{
     line-height: 0.1%;
     font-style: 60px;
@@ -116,7 +119,21 @@ label {
 }
 label img{
     width: 50px;
-    
 }
 
-/*Aqui se encerra o css do membrox*/
+/*Aqui se encerra o css do membros*/
+
+/*Aqui se comeca o css do loginsonoplasta*/
+
+.lado_direito{
+    align-items: center;
+    justify-content: center;
+}
+.areaInputSono{
+    display: flex;
+    flex-direction: column;
+    width:380px;
+    gap: 35px;    
+}
+
+/*Aqui se encerra o css do loginsonoplasta*/
